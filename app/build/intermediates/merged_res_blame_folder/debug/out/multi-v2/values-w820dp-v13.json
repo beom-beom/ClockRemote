@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.clockremote.app-mergeDebugResources-26:/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/user/ClockRemote/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "22,20",
+                        "startColumns": "4,4",
+                        "startOffsets": "1012,962",
+                        "endColumns": "41,48",
+                        "endOffsets": "1049,1006"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,97",
+                        "endColumns": "41,48",
+                        "endOffsets": "92,141"
+                    }
+                }
+            ]
+        }
+    ]
+}

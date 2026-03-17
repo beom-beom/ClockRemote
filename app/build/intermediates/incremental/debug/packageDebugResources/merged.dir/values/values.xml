@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_tasks_array">
+        <item>@string/nav_all</item>
+        <item>@string/nav_active</item>
+        <item>@string/nav_completed</item>
+    </string-array>
+    <color name="colorAccent">#2E7D32</color>
+    <color name="colorGrey">#757575</color>
+    <color name="colorPrimary">#FFFFF0</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorTextPrimary">#000000</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="header_height">192dp</dimen>
+    <dimen name="header_image_width">100dp</dimen>
+    <dimen name="header_padding">16dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <drawable name="completedTaskBackground">#CCCCCC</drawable>
+    <drawable name="touchFeedback">#CFD8DC</drawable>
+    <string name="add_task">New Task</string>
+    <string name="app_name">Todo</string>
+    <string name="cd_save_task">Save task</string>
+    <string name="completed_tasks_cleared">Completed tasks cleared</string>
+    <string name="description_hint">Enter your task here.</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="empty_task_message">Tasks cannot be empty</string>
+    <string name="label_active">Active Tasks</string>
+    <string name="label_all">All Tasks</string>
+    <string name="label_completed">Completed Tasks</string>
+    <string name="list_title">Task List</string>
+    <string name="loading">LOADING</string>
+    <string name="loading_task_error">Error while loading task</string>
+    <string name="loading_tasks_error">Error while loading tasks</string>
+    <string name="menu_back">Back</string>
+    <string name="menu_clear">Clear completed</string>
+    <string name="menu_delete_task">Delete task</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_more">More</string>
+    <string name="nav_active">Active</string>
+    <string name="nav_all">All</string>
+    <string name="nav_completed">Completed</string>
+    <string name="navigation_view_header_title">Todo</string>
+    <string name="no_data">No data</string>
+    <string name="no_data_description"/>
+    <string name="no_tasks_active">You have no active tasks!</string>
+    <string name="no_tasks_all">You have no tasks!</string>
+    <string name="no_tasks_completed">You have no completed tasks!</string>
+    <string name="no_tasks_image_content_description">No tasks image</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="refresh">Refresh</string>
+    <string name="statistics_active_tasks">Active tasks: %.1f%%</string>
+    <string name="statistics_completed_tasks">Completed tasks: %.1f%%</string>
+    <string name="statistics_error">Error loading statistics.</string>
+    <string name="statistics_no_tasks">You have no tasks.</string>
+    <string name="statistics_title">Statistics</string>
+    <string name="successfully_added_task_message">Task added</string>
+    <string name="successfully_deleted_task_message">Task was deleted</string>
+    <string name="successfully_saved_task_message">Task saved</string>
+    <string name="task_details">Task Details</string>
+    <string name="task_marked_active">Task marked active</string>
+    <string name="task_marked_complete">Task marked complete</string>
+    <string name="task_not_found">Task not found</string>
+    <string name="tasks_header_image_content_description">Tasks header image</string>
+    <string name="title_hint">Title</string>
+    <style name="AppTheme" parent="Base.AppTheme"/>
+    <style name="AppTheme.OverlapSystemBar" parent="Base.AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+        <item name="android:fontFamily">@font/opensans_font</item>
+        
+        <item name="fontFamily">@font/opensans_font</item>
+    </style>
+    <declare-styleable name="ScrollChildSwipeRefreshLayout">
+        <attr format="boolean" name="refreshing"/>
+    </declare-styleable>
+</resources>
